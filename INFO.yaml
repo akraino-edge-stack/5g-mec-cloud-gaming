@@ -1,0 +1,63 @@
+---
+project: '5g_mec_cloud_gaming'
+project_creation_date: '2020-04-28'
+project_category: ''
+lifecycle_state: 'Incubation'
+project_lead: &akraino_5g_mec_cloud_gaming_ptl
+    name: 'Feng Yang'
+    email: 'fengfyang@tencent.com'
+    id: 'yangfchc'
+    company: 'Tencent'
+    timezone: 'Asia/Shanghai'
+primary_contact: *akraino_5g_mec_cloud_gaming_ptl
+issue_tracking:
+    type: 'jira'
+    url: 'https://jira.akraino.org/projects/'
+    key: 'MECCG'
+mailing_list:
+    type: 'groups.io'
+    url: 'technical-discuss@lists.akraino.org'
+    tag: '[]'
+realtime_discussion:
+    type: 'irc'
+    server: 'freenode.net'
+    channel: '#akraino'
+meetings:
+    - type: 'gotomeeting+irc'
+      agenda: 'https://wiki.akraino.org/display/'
+      url: ''
+      server: 'freenode.net'
+      channel: '#akraino'
+      repeats: ''
+      time: ''
+repositories:
+    - 5g-mec-cloud-gaming
+committers:
+    - <<: *akraino_5g_mec_cloud_gaming_ptl
+    - name: 'Tina Tsou'
+      email: 'tina.tsou@arm.com'
+      id: 'tinatsou'
+      company: 'ARM'
+      timezone: 'America/Los_Angeles'
+    - name: 'Wei Chen'
+      email: 'allenwchen@tencent.com'
+      id: 'allenwchen'
+      company: 'Tencent'
+      timezone: 'Unknown/Unknown'
+    - name: 'feng jiaxin'
+      email: 'fengjiaxin22@163.com'
+      id: 'aiyamayaa'
+      company: 'Tencent'
+      timezone: 'Unknown/Unknown'
+    - name: 'Buyuan Lin'
+      email: 'bl516@scarletmail.rutgers.edu'
+      id: 'BcomedianC'
+      company: 'Tencent'
+      timezone: 'Unknown/Unknown'
+tsc:
+    # yamllint disable rule:line-length
+    approval: 'https://wiki.akraino.org/download/attachments/4456453/Akraino-TSC%20Meeting%2010.10.19-v1.pdf?version=1&modificationDate=1570723629000&api=v2'
+    changes:
+        - type: ''
+          name: ''
+          link: ''
