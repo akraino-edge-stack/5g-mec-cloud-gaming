@@ -1,0 +1,7 @@
+
+        [gerrit]
+        host=gerrit.akraino.org
+        port=29418
+        project=5g-mec-cloud-gaming
+        defaultbranch=master
+        
