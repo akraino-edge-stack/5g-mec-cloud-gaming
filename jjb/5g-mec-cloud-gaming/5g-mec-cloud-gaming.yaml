@@ -1,0 +1,14 @@
+---
+- project:
+    name: 5g-mec-cloud-gaming-project-view
+    project-name: 5g-mec-cloud-gaming
+    views:
+      - project-view
+
+- project:
+    name: 5g-mec-cloud-gaming-info
+    project: 5g-mec-cloud-gaming
+    project-name: 5g-mec-cloud-gaming
+    build-node: centos7-builder-2c-1g
+    jobs:
+      - gerrit-info-yaml-verify
