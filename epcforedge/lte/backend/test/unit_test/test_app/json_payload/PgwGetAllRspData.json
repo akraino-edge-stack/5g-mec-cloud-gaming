@@ -1,0 +1,7 @@
+{"totalCount":3,
+"items":[
+{"id":"2","uuid":"222222abcdefabcdefabcdefabcdefabcdef","tac":"52","apn_ni":"public.mnc092.mcc466.gprs","s5u_ip":"192.168.120.119","proxy_ip":"192.168.120.119"},
+{"id":"3","uuid":"333333abcdefabcdefabcdefabcdefabcdef","tac":"53","apn_ni":"test3.mnc092.mcc466.gprs","s5u_ip":"192.168.120.119","proxy_ip":"192.168.120.119"},
+{"id":"5","uuid":"555555abcdefabcdefabcdefabcdefabcdef","tac":"55","apn_ni":"test5.mnc092.mcc466.gprs","s5u_ip":"192.168.120.119","proxy_ip":"192.168.120.119"}
+],
+"success":true,"msg":""}
