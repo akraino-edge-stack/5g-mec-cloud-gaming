@@ -2,4 +2,4 @@
 
 ### Added 
 
-- 5GC Emulator 
+- 5GC Emulator
