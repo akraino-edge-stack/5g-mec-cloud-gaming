@@ -1,3 +1,6 @@
 [submodule "5GCEmulator"]
 	path = 5GCEmulator
 	url = https://github.com/yangfengee04/5GCEmulator.git
+[submodule "edgenode"]
+	path = edgenode
+	url = https://github.com/yangfengee04/edgenode.git
