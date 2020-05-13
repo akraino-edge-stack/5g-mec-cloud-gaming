@@ -43,3 +43,4 @@ go get github.com/onsi/gomega/
 
 git submodule update --init --recursive
 make -C 5GCEmulator/ngc build
+make -C edgecontroller test-unit
