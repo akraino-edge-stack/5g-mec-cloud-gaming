@@ -49,6 +49,10 @@ committers:
       id: 'aiyamayaa'
       company: 'Tencent'
       timezone: 'Unknown/Unknown'
+    - name: 'Xiaoming Xu'
+      email: 'xuxm@dsp.ac.cn'
+      company: 'Tencent'
+      timezone: 'Unknown/Unknow'
 tsc:
     # yamllint disable rule:line-length
     approval: 'https://wiki.akraino.org/download/attachments/4456453/Akraino-TSC%20Meeting%2010.10.19-v1.pdf?version=1&modificationDate=1570723629000&api=v2'
