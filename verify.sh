@@ -20,11 +20,21 @@ sudo rm -rf /usr/local/go
 sudo tar -C /usr/local -xzf ${GO_VERSION}
 
 ls /usr/local
-export PATH=$PATH:/usr/local/go/bin/
-export PATH=$PATH:/usr/bin/
 
+export GOPATH=$HOME/go
+export PATH=$PATH:/usr/bin/
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/usr/local/go/bin
+
+#source /etc/profile
+#command -v ginkgo
 go get github.com/onsi/ginkgo/ginkgo
 go get github.com/onsi/gomega/
 
+#echo `which ginkgo`
+#echo `ginkgo version`
 git submodule update --init --recursive
 make -C 5GCEmulator/ngc build
+echo `ginkgo version`
+ginkgo version
+sudo make -C 5GCEmulator/ngc test-unit-nef
