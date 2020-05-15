@@ -2,6 +2,7 @@
 
 echo "5g-mec-cloud-gaming verify test"
 
+
 if [ -z "${GO_URL}" ]; then
     GO_URL='https://dl.google.com/go/'
 fi
@@ -18,13 +19,20 @@ echo "---> Installing golang from ${GO_URL} with version ${GO_VERSION}"
 wget ${GO_URL}/${GO_VERSION}
 sudo rm -rf /usr/local/go
 sudo tar -C /usr/local -xzf ${GO_VERSION}
-
 ls /usr/local
 export PATH=$PATH:/usr/local/go/bin/
 export PATH=$PATH:/usr/bin/
 
+export GOPROXY=https://goproxy.io
 go get github.com/onsi/ginkgo/ginkgo
 go get github.com/onsi/gomega/
+export PATH=$PATH:/root/go/bin
+ginkgo version
+
+sudo yum -y install gcc
+export PATH=$PATH:/usr/bin/
+gcc -v
 
 git submodule update --init --recursive
 make -C 5GCEmulator/ngc build
+make -C 5GCEmulator/ngc test-unit-nef
